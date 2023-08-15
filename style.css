@@ -1,0 +1,171 @@
+body{
+    background-image: url(https://s1.best-wallpaper.net/wallpaper/m/1811/Orange-tulips-flowers-field-clouds-dusk_m.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor h2{
+    color: orangered;
+}
+.contenedor h3{
+    color: white;
+}
+.contenedor{
+    border: solid 7px white;
+    padding: 15px;
+    width: 70%;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.5);
+}
+.contenedor input{
+    border: 0;
+    border-bottom: 2px solid white;
+    outline: 0;
+    color: black;
+    background: transparent;   
+
+}
+input::placeholder{
+ color: white;
+}
+select, option{
+    background-color: gray;
+  color: white;
+}
+#provincia{
+border: 0;
+border-bottom: 2px solid white;
+border-color: white;
+outline: 0;
+color: white;
+background-color: transparent;
+width: 32%;
+height: 30px;
+
+}
+#canton{
+    border: 0;
+    border-bottom: 2px solid white;
+    border-color: white;
+    outline: 0;
+    color: white;
+    background-color: transparent;
+    width: 32%;
+    height: 30px;
+    
+ }
+ #distrito{
+        border: 0;
+        border-bottom: 2px solid white;
+        border-color: white;
+        outline: 0;
+        color: white;
+        background-color: transparent;
+        width: 32%;
+        height: 30px;
+        
+}
+.CP{
+        display: flex;
+        justify-content: left;
+        
+    }
+#Cantidad{
+    border: 1;
+    border-color: white;
+    outline: 0;
+    color: white;
+    background-color: transparent;
+    width: 65px;
+   
+}
+#Producto{
+    border: 1;
+    border-color: white;
+    outline: 0;
+    color: white;
+    background-color: transparent;
+    width: 119px;
+    }
+#Tamano{
+    
+    border: 1;
+    border-color: white;
+    outline: 0;
+    color: white;
+    background-color: transparent;
+    width: 65px;  
+}
+
+.contenedor #Seleccionado{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.contenedor p{
+    color: white;
+    width: 30%;
+}
+.botones{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    
+}
+button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+    color: white;
+    width: 25%;
+    height: 35px;
+    border: 0;
+}
+button:hover{
+   
+    background-color: white;
+    color: orangered;
+}
+
+#CargarD{
+    background-color: transparent;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 84%;
+}
+#pagar{
+    width: 40%;
+    background-color: transparent;
+    border: 1px solid;
+}
+
+#Producto_Seleccionado{
+    background-color: orangered;
+    border-radius: 1px;
+     color: white;
+    height: 50px;
+    width: 100%;
+    opacity: 60%;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 1%;
+}

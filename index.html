@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Tarea VIII</title>
+</head>
+<body>
+    <header>
+    <h1>Floristeria Formulario Para Ordenar</h1>
+    </header>
+
+    <main>
+        <div class="contenedor">          
+                <h2>Informacion personal</h2>
+                <input type="text" id="name" placeholder="Name" size="71">
+                <input type="email" id="email" placeholder="Email" size="72">
+                <br><br>
+                <select name="provincia" id="provincia"> <option value="">Selected Provincia</option> </select>
+                <select name="canton" id="canton"> <option value="">Selected Cantón</option></select>
+                 <select name="distrito" id="distrito"><option value="">Selected Distrito</option></select>         
+                <br><br>
+                <label id="distritoLabel" for="distrito"></label>
+                <button id="CargarD" onclick="CargarDistritos()">Confirmar Canton</button>
+                <br><br>
+                <input type="text" name="señas" id="Senas" placeholder="Señas" size="71">
+                <input type="text" name="telefono" id="Telefono" placeholder="Telefono" size="72">
+
+                <h2>Detalle de la Orden</h2>
+                <h3>Seleccione un Prodcuto</h3>
+                <div class="CP">
+                 <p>Cantidad<select name="Selected" id="Cantidad"> <option value="1">1</option> <option value="2">2</option> <option value="3">3</option></select> 
+                 <p>Producto<select name="Selected" id="Producto" > <option value="Rosas">Rosas</option> <option value="Girasoles">Girasoles</option> </select>
+                 <p>Tamaño<select name="Selected" id="Tamano" > <option value="Small">Small</option> <option value="Medium">Medium</option> <option value="Big">Big</option></select> 
+  
+                </div>
+              
+             <br><br>    
+                <div class="botones">
+                <button id="Registrar" onclick="Registrar()">Registrar</button>
+                
+                <button onclick="Limpiar()">Limpiar</button>
+                <button id="pagar" onclick="MostrarTotal()">Total a pagar</button>
+                </div>
+                <article>
+                <h2 id="Seleccionado">Producto seleccionado</h2>
+                <table id="Producto_Seleccionado" >
+                    <tr>
+                        <th id="C">Cantidad</th>
+                        <th id="C">Producto</th>
+                       
+                        <th id="T">Tamaño</th>
+                        <th id="T">Precio</th>
+                        <th id="T">Total</th>
+                    </tr>
+                </table>
+                <p id="lblTotal"></p>
+                </article>
+        </div>
+    </main>
+    <script src="Function.js"></script>
+    <footer>
+        <p> &copy;2022 Florist Order From All Rights Reserved | Desing by Kenneth Santamaria Castro</p>
+    </footer>
+</body>
+</html>
